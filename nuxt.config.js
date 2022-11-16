@@ -22,6 +22,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    { src: "~/plugins/gsap", ssr: false}
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -56,6 +57,22 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+     // required for gsap
+     transpile: ["gsap"],
+     /*
+     ** You can extend webpack config here
+     */
+     loaders: {
+       cssModules: {
+         modules: {
+           localIdentName: "[local]--[Frida]_[hash:base64:4]",
+         }
+       }
+     },
+     /*
+     ** Path of public directory
+     */
+     // publicPath: 'https://staging.next-dc.com/renault_motorshow/public/'
   },
   
   tailwindcss: {

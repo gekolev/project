@@ -1,53 +1,28 @@
-import defaultTheme from 'tailwindcss/defaultTheme'
-
-export default {
+module.exports = {
+  // purge: ['./dist/*.html'],
+  content: ['./src/**/*.{html,js}'],
   theme: {
     extend: {
       colors: {
-        primary: '#42a7f5'
-      }
+        'body-brown': '#3B2C29',
+        
+      },
+      backgroundImage: {
+        'hero-image': "url('/src/images/content/hero_bg.png')",
+        'logodaj-wheel': "url('/src/images/content/logodaj_wheel.png')",
+      },
+      fontFamily: {
+        raleway: 'Raleway',
+      },
+      fontSize: {
+        '8xl': ['8rem', '1'],
+        '9xl': ['11rem', '145px'],
+        '10xl': ['12rem', '132px'],
+      },
     },
-    fontSize: {
-      'xl': ['1.5rem', {
-        lineHeight: '2rem',
-        letterSpacing: '-0.01em',
-        fontWeight: '500',
-      }],
-      '2xl': ['2rem', {
-        lineHeight: '2.25rem',
-        letterSpacing: '-0.02em',
-        fontWeight: '700',
-      }],
-      '3xl': ['3rem', {
-        lineHeight: '2.25rem',
-        letterSpacing: '-0.02em',
-        fontWeight: '700',
-      }],
-      '4xl': ['4rem', {
-        lineHeight: '2.25rem',
-        letterSpacing: '-0.02em',
-        fontWeight: '700',
-      }],
-      '5xl': ['5rem', {
-        lineHeight: '2.25rem',
-        letterSpacing: '-0.02em',
-        fontWeight: '700',
-      }],
-      '6xl': ['6rem', {
-        lineHeight: '2.25rem',
-        letterSpacing: '-0.02em',
-        fontWeight: '700',
-      }],
-      '7xl': ['7rem', {
-        lineHeight: '2.25rem',
-        letterSpacing: '-0.02em',
-        fontWeight: '700',
-      }],
-      '8xl': ['8rem', {
-        lineHeight: '2.25rem',
-        letterSpacing: '-0.02em',
-        fontWeight: '700',
-      }],
-    }
-  }
-}
+  },
+  variants: {
+    opacity: ({ after }) => after(['disabled']),
+  },
+  plugins: [],
+};

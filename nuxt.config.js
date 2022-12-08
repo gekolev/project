@@ -32,7 +32,14 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/style-resources',
+
   ],
+  styleResources: {
+    scss: [
+      '~/assets/style/variables.scss',
+    ],
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [

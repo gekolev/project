@@ -12,7 +12,8 @@ module.exports = {
         'logodaj-wheel': "url('/src/images/content/logodaj_wheel.png')",
       },
       fontFamily: {
-        raleway: 'Raleway',
+        jost: 'Jost',
+      
       },
       fontSize: {
         '8xl': ['8rem', '1'],

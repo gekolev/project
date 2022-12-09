@@ -15,6 +15,12 @@
 
   </script>
 
+<style>
+html {
+font-family: "Jost";
+}
+</style>
+
 <!-- <style lang="scss">
 .glitch{
   color:white;

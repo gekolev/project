@@ -12,12 +12,18 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,200;0,400;1,100;1,400&display=swap"
+      }
     ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    // "~assets/scss/main.scss",
+
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -37,7 +43,7 @@ export default {
   ],
   styleResources: {
     scss: [
-      '~/assets/style/variables.scss',
+      '~/assets/scss/main.scss',
     ],
   },
 

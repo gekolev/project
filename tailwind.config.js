@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'body-brown': '#3B2C29',
+        'salmon': '#F2EEEE',
         
       },
       backgroundImage: {

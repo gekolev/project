@@ -5,8 +5,8 @@
 
     <HeroSection :isMobile="mobile" />
     <PortfolioSection />
-    <StudioSection :isMobile="mobile"/>
     <AboutSection />
+    <StudioSection :isMobile="mobile"/>
     <ContactSection />
     <!-- <ScheduleSection />
     <TicketSection :isMobile="mobile" :isTablet="tablet"/>

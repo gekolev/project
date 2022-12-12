@@ -1,9 +1,9 @@
 <template>
     <div class="wrapper">
       <section>
-        <div class="w-screen h-screen flex flex-col justify-center items-center bg-black">
-          <h1 class="text-primary text-white text-9xl tracking-widest	" id="title">V N N</h1>
-          <!-- <h2 class="mt-5 text-white text-3xl tracking-widest	">D E S I G N</h2> -->
+        <div class="w-full h-screen flex flex-col justify-center items-center bg-black">
+          <h1 class="text-primary text-white text-6xl md:text-9xl tracking-widest	" id="title">V N N</h1>
+          <h2 class="mt-5 text-white text-2xl md:text-3xl tracking-widest	">D E S I G N</h2>
           <!-- <div class="glitch">GLITCH</div>  -->
         </div>
       </section>
@@ -21,7 +21,7 @@ font-family: "Jost";
 }
 </style>
 
-<!-- <style lang="scss">
+<!-- <style >
 .glitch{
   color:white;
   font-size:100px;

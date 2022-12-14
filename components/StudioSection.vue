@@ -8,7 +8,7 @@
           focusses on delivering unique collections.
         </p>
         <div class="flex flex-col">
-          <span class="mt-40 flex justify-center uppercase text-black">Clients</span>
+          <span class="mt-40 flex justify-center uppercase box">Clients</span>
           <!-- <img class="" src="~/static/dstm.svg"> -->
           <div class="flex flex-row justify-center">
            <img src="">
@@ -17,15 +17,23 @@
         </div>
       </div>
       <div>
-        <img class="" src="~/static/studio.jpeg" />
+        <img src="~/static/studio.jpeg" />
       </div>
     </section>
   </div>
 </template>
   
 <script>
-export default {};
+import gsap from "gsap";
+
+export default {
+  
+};
 </script>
   
-<style lang=""></style>
+<style>
+.box {
+  color: red;
+}
+</style>
   

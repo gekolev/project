@@ -4,12 +4,12 @@
          :class="{ ['bg-black lg:bg-transparent bg-opacity-90']: showMobileMenu }">
 
          <button
-        class="text-white inline-flex p-3 rounded lg:hidden ml-auto hover:text-white outline-none"
+        class="text-white inline-flex p-3 lg:hidden ml-auto outline-none"
         @click.capture="toggleNavigation">
-        <i class="material-icons">menu</i>
+        <i class="">menu</i>
       </button>
 
-      <div class="bg-black top-navbar w-full lg:top-auto lg:relative lg:inline-flex lg:w-auto">
+      <div class="bg-black top-navbar w-full lg:top-auto lg:relative lg:inline-flex lg:w-auto navigation" :class="[{ 'hidden': !showMobileMenu }]">
         <div class="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full items-center flex flex-col lg:h-auto divide-y lg:divide-y-0 divide-gray-700">
           <span class="lg:inline-flex lg:w-auto w-full pl-6 pr-6 lg:pl-0 lg:pr-3 py-3 text-lg lg:text-md font-bold cursor-pointer" @click.stop="scrollTo('#portfolio')">portfolio</span>
           <span class="lg:inline-flex lg:w-auto w-full px-6 lg:px-3 py-3 text-lg lg:text-md font-bold cursor-pointer" @click.stop="scrollTo('#about')">about</span>
@@ -49,3 +49,12 @@
   };
 
 </script>
+
+<style>
+
+@media only screen and (max-width: 600px) {
+.navigation{
+  
+}
+}
+</style>

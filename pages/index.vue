@@ -27,8 +27,8 @@ export default {
         };
     },
     mounted() {
-        this.mobile = window.innerWidth < 900;
-        this.tablet = window.innerWindth > 900 < 1200;
+        this.mobile = window.innerWidth < 700;
+        // this.tablet = window.innerWindth > 800 < 1200;
     },
 }
 </script>

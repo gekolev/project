@@ -10,9 +10,11 @@
                         <input id="form-input" type="text" name="form-input" placeholder="Enter your email address"
                             maxlength="" class="w-full bg-black text-white outline-none">
                     </div>
-                    <button role="button" class="w-1/6 text-white flex justify-end">
-                        <img class="pr-3" src="~/static/Union.png">
-                        <span class="text-base md:text-lg">Count me in</span>
+                    <button role="button" class="text-white  ">
+                        <div class="w-full justify-end flex">
+                            <img class="pr-3" src="~/static/Union.png">
+                            <span class="whitespace-nowrap	 text-base md:text-lg">Count me in</span>
+                        </div>
                     </button>
                 </div>
             </form>

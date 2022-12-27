@@ -26,10 +26,10 @@ export default {
             tablet: false
         };
     },
-    mounted() {
-        this.mobile = window.innerWidth < 700;
+    // mounted() {
+    //     this.mobile = !
         // this.tablet = window.innerWindth > 800 < 1200;
-    },
+    // },
 }
 </script>
 <!-- 

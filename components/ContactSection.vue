@@ -1,8 +1,8 @@
 <template>
     <div class="wrapper" id="contact">
         <div class="w-screen bg-black">
-            <p class="text-white text-center px-3 py-10">Sign up to receive invites to upcoming exclusive events and
-                workshops.<br>
+            <p class="text-white text-center px-10 py-10">Sign up to receive invites to upcoming exclusive events and
+                workshops.<br class="hidden md:block">
                 If you'd like us to help you grow your business, feel free to reach out.</p>
             <form class="w-full px-5">
                 <div class="border flex justify-between px-5 py-10">

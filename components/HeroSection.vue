@@ -2,8 +2,8 @@
     <div class="wrapper">
       <section>
         <div class="w-full h-screen flex flex-col justify-center items-center bg-black">
-          <h1 class="text-primary text-white text-6xl md:text-9xl tracking-widest	" id="title">V N N</h1>
-          <h2 class="mt-5 text-white text-2xl md:text-3xl tracking-widest	">D E S I G N</h2>
+          <h1 data-aos="fade-up" data-aos-delay="100" class="text-primary text-white text-6xl md:text-9xl tracking-widest" id="title">V N N</h1>
+          <h2 data-aos="fade-up" data-aos-delay="200" class="mt-5 text-white text-2xl md:text-3xl tracking-widest	">D E S I G N</h2>
           <!-- <div class="glitch">GLITCH</div>  -->
         </div>
       </section>

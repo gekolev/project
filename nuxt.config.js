@@ -23,12 +23,13 @@ export default {
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     // "~assets/scss/main.scss",
-
+    'aos/dist/aos.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    { src: "~/plugins/gsap", ssr: false}
+    { src: "~/plugins/gsap", ssr: false},
+    { src: "~/plugins/aos", mode: "client" }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components

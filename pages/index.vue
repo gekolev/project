@@ -11,8 +11,6 @@
     <!-- <ScheduleSection />
     <TicketSection :isMobile="mobile" :isTablet="tablet"/>
     <PartnerSection :isMobile="mobile"/> -->
-
-    <NavBottom />
   </div>
 </template>
 

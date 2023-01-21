@@ -1,6 +1,6 @@
 <template>
   <div class="min-h-screen bg-cover bg-no-repeat bg-center">
-    
+    <Lang />
     <HeaderTop :hideNav="true"/>
 
     <HeroSection :isMobile="mobile" />

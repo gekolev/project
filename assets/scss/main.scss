@@ -1,12 +1,10 @@
-@tailwind base;
 
-@font-face {
-  font-family: 'Jost';
-  src: local('Jost'),
-  url('~/assets/fonts/Jost-Italic-VariableFont_wght.ttf') format('truetype'); /* TTF Fallback */; /* Modern Browsers */
-}
+// @font-face {
+//   font-family: 'Jost';
+//   src: local('Jost'),
+//   url('~/assets/fonts/Jost-Italic-VariableFont_wght.ttf') format('truetype'); /* TTF Fallback */; /* Modern Browsers */
+// }
 
-
-@tailwind components;
-
-@tailwind utilities;
+// *{
+//   background-color: red;
+// }

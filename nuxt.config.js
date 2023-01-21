@@ -23,6 +23,8 @@ export default {
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     // "~assets/scss/main.scss",
+    "~assets/scss/style.css",
+
     'aos/dist/aos.css'
   ],
 
@@ -54,7 +56,39 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
+    '@nuxtjs/i18n',
   ],
+
+  i18n: {
+    /* module options */
+    locales: [
+      {
+        code: "en",
+        name: "English"
+      },
+      {
+        code: "bg",
+        name: "Български"
+      }
+    ],
+    defaultLocale: "en",
+    vueI18n: {
+      fallbackLocale: "en",
+      messages: {
+        en: {
+          welcome: "Welcome",
+          help: "Help",
+          portfolioHeadline: "PORTFOLIO"
+        },
+        bg: {
+          welcome: "Здравейте",
+          help: "Помощ",
+          portfolioHeadline: "Портфолио"
+
+        }
+      }
+    }
+  },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {

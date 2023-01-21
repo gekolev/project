@@ -17,6 +17,7 @@
 <style>
 html {
 font-family: "Jost";
+overflow-x: hidden;
 }
 </style>
 

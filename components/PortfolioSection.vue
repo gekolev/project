@@ -3,7 +3,7 @@
     <section>
       <div class="hidden md:block w-screen h-screen">
         <h2 data-aos="fade-up" data-aos-delay="100" class="pt-10 pl-10 text-primary text-black text-7xl md:text-8xl">
-          PORTFOLIO</h2>
+          {{ $t('portfolioHeadline') }}</h2>
           <div class="container"> 
     <img src="~/static/green.webp" class="object w-1/4 green" data-value="6" alt="green sleeve" />
     <img src="~/static/peony.webp" class="object w-1/5 peony" data-value="4" alt="silk detail" />
@@ -22,7 +22,7 @@
       </div>
       <div class="block md:hidden w-screen h-full">
         <h2 data-aos="fade-up" data-aos-delay="100" class="text text-primary text-black text-6xl md:text-7xl md:text-8xl">
-          PORTFOLIO</h2>
+          {{ $t('portfolioHeadline') }}</h2>
           <div class="flex flex-col"> 
     <img src="~/static/pink.webp" class="w-full pink2"  alt="pink detail" />
     <img src="~/static/orangepinkblack.webp" class="w-full orangepink2" alt="three details" />

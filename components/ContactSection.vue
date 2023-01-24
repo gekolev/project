@@ -1,9 +1,7 @@
 <template>
     <div class="wrapper" id="contact">
         <div class="w-screen bg-black">
-            <p class="text-white text-center px-10 py-10">Sign up to receive invites to upcoming exclusive events and
-                workshops.<br class="hidden md:block">
-                If you'd like us to help you grow your business, feel free to reach out.</p>
+            <p class="text-white text-center px-10 py-10">{{ $t('signUP') }}</p>
             <form class="w-full px-5">
                 <div class="border flex justify-between px-5 py-10">
                     <div class="w-full flex flex-row">
@@ -24,7 +22,7 @@
                 </h3>
             </div> -->
             <div class="flex flex-row justify-between px-5">
-                <span class="text-white text-sm md:text-base uppercase pt-24">Get in touch with us!</span>
+                <span class="text-white text-sm md:text-base uppercase pt-24">{{ $t('getinTouch') }}</span>
                 <ul class="flex flex-col pt-16 text-right text-white">
                     <li>
                         <a href="" class="text-sm md:text-base">valianikolowa@gmail.com</a>
@@ -33,7 +31,7 @@
                         <a href="" class="text-sm md:text-base">+359 8988 3850 58</a>
                     </li>
                     <li class="pb-10">
-                        <a class="text-sm md:text-base">Sofia, Lyuben Karavelov 29</a>
+                        <a class="text-sm md:text-base">{{ $t('address') }}</a>
                     </li>
                 </ul>
             </div>

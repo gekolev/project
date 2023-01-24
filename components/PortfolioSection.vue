@@ -5,18 +5,19 @@
         <h2 data-aos="fade-up" data-aos-delay="100" class="pt-10 pl-10 text-primary text-black text-7xl md:text-8xl">
           {{ $t('portfolioHeadline') }}</h2>
           <div class="container"> 
-    <img src="~/static/green.webp" class="object w-1/4 green" data-value="6" alt="green sleeve" />
-    <img src="~/static/peony.webp" class="object w-1/5 peony" data-value="4" alt="silk detail" />
-    <img src="~/static/triple.webp" class="object w-1/4 triple" data-value="-6" alt="three dresses" />
-    <img src="~/static/pink.webp" class="object w-1/4 pink" data-value="8" alt="pink detail" />
+    <img src="~/static/orange.png" class="object w-1/4 orange" data-value="6" alt="orange top" />
+    <img src="~/static/pink.webp" class="object w-1/4 peony" data-value="4" alt="silk detail" />
+    <img src="~/static/blue-top.png" class="object w-1/4 triple" data-value="-6" alt="blue top" />
+    <img src="~/static/pink-orange.png" class="object w-1/3 pink" data-value="20" alt="pink orange swimwear" />
+    <img src="~/static/black-dress.png" class="object w-1/4 orange-dress" data-value="20" alt="black dress" />
   </div>
       </div>
       <div class="hidden md:block w-screen h-screen">
           <div class="container"> 
-    <img src="~/static/dstm.webp" class="object w-1/4 dstm" data-value="6" alt="black detail" />
-    <img src="~/static/black.webp" class="object w-1/5 black" data-value="4" alt="black detail" />
-    <img src="~/static/orangepinkblack.webp" class="object w-1/4 orange" data-value="-6" alt="three details" />
-    <img src="~/static/whitepink.webp" class="object w-1/5 whitepink" data-value="-6" alt="silk" />
+    <img src="~/static/purple-dress.png" class="object w-1/4 dstm" data-value="6" alt="purple dress" />
+    <img src="~/static/white-dress.png" class="object w-1/5 black" data-value="4" alt="white dress" />
+    <img src="~/static/bw-bottom.png" class="object w-1/4 bw" data-value="-6" alt="black and white bottom" />
+    <img src="~/static/green-dress3.png" class="object w-1/3 whitepink" data-value="-6" alt="green dress" />
     <img src="" class="object" data-value="8" alt="" />
   </div>
       </div>
@@ -25,11 +26,12 @@
           {{ $t('portfolioHeadline') }}</h2>
           <div class="flex flex-col"> 
     <img src="~/static/pink.webp" class="w-full pink2"  alt="pink detail" />
-    <img src="~/static/orangepinkblack.webp" class="w-full orangepink2" alt="three details" />
-    <img src="~/static/peony.webp" class="w-full peony2" alt="silk detail" />
-    <img src="~/static/triple.webp" class="w-full triple2" alt="three dresses" />
-    <img src="~/static/whitepink.webp" class="w-full whitepink2" data-value="-6" alt="silk" />
-  </div>
+    <img src="~/static/pink-orange.png" class="w-full orangepink2" alt="pink orange swimwear" />
+    <img src="~/static/green-dress3.png" class="w-full whitepink2" data-value="-6" alt="green dress" />
+    <img src="~/static/white-top.png" class="w-full peony2" alt="white top" />
+    <img src="~/static/blue-top.png" class="w-full peony2" alt="blue top" />
+    
+   </div>
       </div>
     </section>
   </div>
@@ -90,25 +92,37 @@ export default {
   line-height:60px;
 }
 
-.green{
+.orange{
   bottom: 20%;
   left: 2%;
 }
 
-.peony{
-  top: 28%;
+
+.triple{
+  right: 35%;
+  bottom: 30%;
+}
+
+.orange-dress {
+  top: 10%;
   left: 25%;
 }
 
-.triple{
-  right: 26%;
-  bottom: 20%;
+.peony{
+  right: 1%;
+  bottom: 35%;
+}
+
+.bw {
+  right: 30%;
+  bottom: 15%;
 }
 
 .pink {
   right: 0%;
   top: 25%;
 }
+
 
 .dstm {
   right: 0%;
@@ -117,7 +131,7 @@ export default {
 
 .black {
   left: 1%;
-  bottom: 15%;
+  bottom: 20%;
 }
 
 .orange {
@@ -127,7 +141,7 @@ export default {
 
 .whitepink {
   left: 25%;
-  top: 15%;
+  top: 20%;
 }
 
 .pink2 {

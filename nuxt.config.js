@@ -76,15 +76,38 @@ export default {
       fallbackLocale: "en",
       messages: {
         en: {
-          welcome: "Welcome",
-          help: "Help",
-          portfolioHeadline: "PORTFOLIO"
+          portfolionav: "portfolio",
+          aboutnav: "about",
+          studionav: "studio",
+          contactnav: "contact",
+          portfolioHeadline: "PORTFOLIO",
+          aboutHeadline: "About",
+          aboutText: "Reimagining handcrafted tailoring that merge refinement, tradition and modernity through a conscious process to deliver high level products to its clients. A tailor studio focused on two values: Sustaintability and Design Experience. Our goal is to offer a product proposal where you can be involved in every step of your product creation.",
+          studioHeadline: "Studio",
+          studioText: "VNN is a specialised studio with a heavy focus on producing high quality garments, underwear, swimwear, homewear and uniforms as well as delivering custom collections.",
+          clients: "CLIENTS",
+          getinTouch: "Get in touch with us!",
+          address: "Sofia, Lyuben Karavelov 29",
+          signUP: "Sign up to receive invites to upcoming exclusive events and workshops. If you'd like us to help you grow your business, feel free to reach out.",
+          email: "Enter your email address",
+          countme: "Count me in",
         },
         bg: {
-          welcome: "Здравейте",
-          help: "Помощ",
-          portfolioHeadline: "Портфолио"
-
+          portfolionav: "портфолио",
+          aboutnav: "за нас",
+          studionav: "студио",
+          contactnav: "контакти",
+          portfolioHeadline: "ПОРТФОЛИО",
+          aboutHeadline: "За нас",
+          aboutText: "Бутиково шивашко студио, което обединява финес, традиция и модерност. Фокусирано върху две ценности: устойчивост и дизайнерско изживяване. Нашата цел е изготвяйки вашия продукт да участвате във всяка стъпка от създаването му.",
+          studioHeadline: "Студио",
+          studioText: "VNN е специализирано студио в изработката на бельо, бански, домашно облекло, домашен текстил и униформи с високо качество. Ние предлагаме конструиране и моделиране - от скица до краен продукт. Както и разработка на лимитирани колекции. ",
+          clients: "КЛИЕНТИ",
+          getinTouch: "Свържете се с нас!",
+          address: "София, Любен Каравелов 29",
+          signUP: "Регистрирайте се, за да получавате поканиза предстоящи ексклузивни събития и работилници. Ако искате да ви помогнем да развиете бизнеса си, не се колебайте да се свържете с нас.",
+          email: "Напиши имейл адреса си",
+          countme: "Брой ме",
         }
       }
     }

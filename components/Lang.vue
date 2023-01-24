@@ -1,23 +1,19 @@
 <template>
     <section>
-      <div>
-        <p>Current language: {{$i18n.locale }}</p>
-  
-        <select v-model="selectedValue" @change="onChange(selectedValue)">
-          <option disabled value>Please select one</option>
+      <div class="bg-black">
+        <select class="bg-black text-white outline-none cursur-pointer" v-model="selectedValue" @change="onChange(selectedValue)">
           <option
             v-for="(locale, index) in $i18n.locales"
             :key="index"
             :value="locale.code"
           >{{locale.name}}</option>
         </select>
-  
-        <h2 class="subtitle">{{ $t('welcome') }}</h2>
-        <h2 class="subtitle">{{ $t('help') }}</h2>
+        
+
       </div>
     </section>
   </template>
-  
+ 
   <script>
   export default {
     data() {
@@ -42,8 +38,7 @@
     font-size: 3em;
     color: #2E495E;
     word-spacing: 5px;
-    padding-bottom: 15px;
-    margin-top: 200px;
+    
   }
   </style>
   

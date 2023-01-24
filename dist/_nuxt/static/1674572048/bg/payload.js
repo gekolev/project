@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/bg", {data:[{}],fetch:{},mutations:void 0});

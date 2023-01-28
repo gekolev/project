@@ -16,22 +16,17 @@
                     </button>
                 </div>
             </form>
-            <!-- <div class=""> 
-                <h3 class="text-white my-16">
-                    <span class="">VNN</span>
-                </h3>
-            </div> -->
             <div class="flex flex-row justify-between px-5">
-                <span class="text-white text-sm md:text-base uppercase pt-24">{{ $t('getinTouch') }}</span>
+                <span class="text-white text-sm md:text-2xl uppercase pt-24">{{ $t('getinTouch') }}</span>
                 <ul class="flex flex-col pt-16 text-right text-white">
                     <li>
-                        <a href="" class="text-sm md:text-base">valianikolowa@gmail.com</a>
+                        <a href="" class="text-sm md:text-lg">valianikolowa@gmail.com</a>
                     </li>
                     <li>
-                        <a href="" class="text-sm md:text-base">+359 8988 3850 58</a>
+                        <a href="" class="text-sm md:text-lg">+359 8988 3850 58</a>
                     </li>
                     <li class="pb-10">
-                        <a class="text-sm md:text-base">{{ $t('address') }}</a>
+                        <a class="text-sm md:text-lg">{{ $t('address') }}</a>
                     </li>
                 </ul>
             </div>

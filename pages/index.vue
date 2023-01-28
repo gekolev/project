@@ -8,9 +8,6 @@
     <AboutSection />
     <StudioSection :isMobile="mobile"/>
     <ContactSection />
-    <!-- <ScheduleSection />
-    <TicketSection :isMobile="mobile" :isTablet="tablet"/>
-    <PartnerSection :isMobile="mobile"/> -->
   </div>
 </template>
 

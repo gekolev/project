@@ -2,7 +2,7 @@
   <div class="wrapper" id="portfolio">
     <section>
       <div class="hidden md:block w-screen h-screen">
-        <h2 data-aos="fade-up" data-aos-delay="100" class="pt-10 pl-10 text-primary text-black text-7xl md:text-8xl">
+        <h2 data-aos="fade-up" data-aos-delay="100" class="pt-10 pl-10 text-primary text-black text-5xl md:text-8xl">
           {{ $t('portfolioHeadline') }}</h2>
           <div class="container"> 
     <img src="~/static/orange.png" class="object w-1/4 orange" data-value="6" alt="orange top" />
@@ -22,7 +22,7 @@
   </div>
       </div>
       <div class="block md:hidden w-screen h-full">
-        <h2 data-aos="fade-up" data-aos-delay="100" class="text text-primary text-black text-6xl md:text-7xl md:text-8xl">
+        <h2 data-aos="fade-up" data-aos-delay="100" class="text text-primary text-black text-5xl md:text-7xl md:text-8xl">
           {{ $t('portfolioHeadline') }}</h2>
           <div class="flex flex-col"> 
     <img src="~/static/pink.webp" class="w-full pink2"  alt="pink detail" />
@@ -100,11 +100,11 @@ export default {
 
 .triple{
   right: 35%;
-  bottom: 30%;
+  bottom: 27%;
 }
 
 .orange-dress {
-  top: 10%;
+  top: 17%;
   left: 25%;
 }
 
@@ -115,7 +115,7 @@ export default {
 
 .bw {
   right: 30%;
-  bottom: 15%;
+  bottom: 5%;
 }
 
 .pink {
@@ -141,7 +141,7 @@ export default {
 
 .whitepink {
   left: 25%;
-  top: 20%;
+  top: 32%;
 }
 
 .pink2 {

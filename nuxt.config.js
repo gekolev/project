@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'project',
+    title: 'VNN DESIGN',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -12,7 +12,7 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: '/gold.png' },
       {
         rel: "stylesheet",
         href: "https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,200;0,400;1,100;1,400&display=swap"
@@ -97,13 +97,13 @@ export default {
         bg: {
           portfolionav: "портфолио",
           aboutnav: "за нас",
-          studionav: "студио",
+          studionav: "ателие",
           contactnav: "контакти",
           portfolioHeadline: "ПОРТФОЛИО",
           aboutHeadline: "За нас",
-          aboutText: "Бутиково шивашко студио, което обединява финес, традиция и модерност. Фокусирано върху две ценности: устойчивост и дизайнерско изживяване. Нашата цел е изготвяйки вашия продукт да участвате във всяка стъпка от създаването му.",
-          studioHeadline: "Студио",
-          studioText: "VNN е специализирано студио в изработката на бельо, бански, домашно облекло, домашен текстил и униформи с високо качество. Ние предлагаме конструиране и моделиране - от скица до краен продукт. Както и разработка на лимитирани колекции. ",
+          aboutText: "Бутиково шивашко ателие, което обединява финес, традиция и качество. Фокусирано върху две ценности: творчество и дизайнерско изживяване. Нашата цел е, изготвяйки всеки продукт да задоволим дори най-малкото очакване. Шием мечти.",
+          studioHeadline: "Ателие",
+          studioText: "VNN е специализирано ателие в изработката на бельо, бански, дамско облекло и униформи с високо качество. Ние предлагаме конструиране и моделиране - от скица до краен продукт. Както и разработка на лимитирани колекции. ",
           clients: "КЛИЕНТИ",
           getinTouch: "Свържете се с нас!",
           address: "София, Любен Каравелов 29",

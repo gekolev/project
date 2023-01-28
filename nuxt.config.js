@@ -9,6 +9,7 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
+      { hid: 'og:image', property: 'og:image', content: 'https://vnn.design/_nuxt/img/VNN.6ab2d48.svg'},
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
@@ -107,7 +108,7 @@ export default {
           clients: "КЛИЕНТИ",
           getinTouch: "Свържете се с нас!",
           address: "София, Любен Каравелов 29",
-          signUP: "Регистрирайте се, за да получавате поканиза предстоящи ексклузивни събития и работилници. Ако искате да ви помогнем да развиете бизнеса си, не се колебайте да се свържете с нас.",
+          signUP: "Регистрирайте се, за да получавате покани за предстоящи ексклузивни събития и работилници. Ако искате да ви помогнем да развиете бизнеса си, не се колебайте да се свържете с нас.",
           email: "Напиши имейл адреса си",
           countme: "Брой ме",
         }

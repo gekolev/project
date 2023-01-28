@@ -20,10 +20,10 @@
                 <span class="text-white text-sm md:text-2xl uppercase pt-24">{{ $t('getinTouch') }}</span>
                 <ul class="flex flex-col pt-16 text-right text-white">
                     <li>
-                        <a href="" class="text-sm md:text-lg">valianikolowa@gmail.com</a>
+                        <a href="mailto:valianikolowa@gmail.com" class="text-sm md:text-lg">valianikolowa@gmail.com</a>
                     </li>
                     <li>
-                        <a href="" class="text-sm md:text-lg">+359 8988 3850 58</a>
+                        <a href="tel:+359898385058" class="text-sm md:text-lg">+359 89838 5058</a>
                     </li>
                     <li class="pb-10">
                         <a class="text-sm md:text-lg">{{ $t('address') }}</a>

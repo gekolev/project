@@ -1,7 +1,7 @@
 {
   "name": "VNN DESIGN",
-  "short_name": "VNN DESIGN",
-  "description": "## Build Setup",
+  "short_name": "VNN",
+  "description": "",
   "icons": [],
   "start_url": "/?standalone=true",
   "display": "standalone",

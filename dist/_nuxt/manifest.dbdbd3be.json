@@ -1,7 +1,7 @@
 {
-  "name": "project",
-  "short_name": "project",
-  "description": "## Build Setup",
+  "name": "VNN DESIGN",
+  "short_name": "VNN DESIGN",
+  "description": "VNN DESIGN | Artisanal Tailoring Studio",
   "icons": [],
   "start_url": "/?standalone=true",
   "display": "standalone",

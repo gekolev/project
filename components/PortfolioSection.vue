@@ -25,7 +25,7 @@
         <h2 data-aos="fade-up" data-aos-delay="100" class="text text-primary text-black text-5xl md:text-7xl md:text-8xl">
           {{ $t('portfolioHeadline') }}</h2>
           <div class="flex flex-col"> 
-    <img src="~/static/pink.webp" class="w-full pink2"  alt="pink detail" />
+    <!-- <img src="~/static/pink.webp" class="w-full pink2"  alt="pink detail" /> -->
     <img src="~/static/pink-orange.png" class="w-full orangepink2" alt="pink orange swimwear" />
     <img src="~/static/green-dress3.png" class="w-full whitepink2" data-value="-6" alt="green dress" />
     <img src="~/static/white-top.png" class="w-full peony2" alt="white top" />

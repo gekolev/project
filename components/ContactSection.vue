@@ -23,7 +23,7 @@
                         <a href="mailto:valianikolowa@gmail.com" class="text-sm md:text-lg">valianikolowa@gmail.com</a>
                     </li>
                     <li>
-                        <a href="tel:+359898385058" class="text-sm md:text-lg">+359 89838 5058</a>
+                        <a href="tel:+359898385058" class="text-sm md:text-lg">+359 898 385 058</a>
                     </li>
                     <li class="pb-10">
                         <a class="text-sm md:text-lg">{{ $t('address') }}</a>

@@ -3,7 +3,8 @@
     <section>
       <div class="w-screen h-auto md:min-h-screen">
         <h2 data-aos="fade-up" data-aos-delay="300"
-          class="pt-10 pl-0 md:pl-10 text-primary text-center text-black text-7xl md:text-8xl">{{ $t('studioHeadline') }}</h2>
+          class="pt-10 pl-0 
+          \;[[[[[[[[[[[[md:pl-10 text-primary text-center text-black text-7xl md:text-8xl">{{ $t('studioHeadline') }}</h2>
         <p data-aos="fade-up" data-aos-delay="400" class="px-10 pt-5 md:pt-16 text-center text-2xl md:text-3xl text-black">
           {{ $t('studioText') }}
         </p>
